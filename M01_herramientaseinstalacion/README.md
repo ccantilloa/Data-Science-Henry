@@ -10,15 +10,11 @@ Antes de comenzar deberás descargar en tu computadora las siguientes herramient
 3. Github
 4. Python
 
-Luego deberás realizar la clonación del [repositorio](https://github.com/soyHenry/Python-Prep). Te explicamos cómo hacerlo en el tutorial: https://youtu.be/nxu3EZVzP8I 
-
 > **Importante**: Github cambió el método de autenticación, ahora es por PAT (Personal Access Token), para crearlo pueden seguir este [link](https://docs.github.com/es/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token). Pueden elegir expiration infinita para hacerlo una sóla vez.
 
 ## SLACK
 
 Slack es una plataforma de comunicación que utilizamos en Henry para estar conectados. Por este medio es MUY IMPORTANTE, por alli vas a recibir comunicados y mantener conversaciones con toda la comunidad de Henry. 
-
-Para ingresar al espacio de Slack del Prep Course de Henry, por favor revisa el los mails que recibiste al avanzar con el proceso de admisión dado que ahí encontrarás el link de acceso
 
 ## Editores de Texto
 

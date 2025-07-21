@@ -20,12 +20,6 @@ El curso consiste en una serie de videos, material teórico y ejercicios con los
 
 </br >
 
-## **📖 ¿QUÉ ES EL HENRY CHALLENGE?**
-
-Es un examen en el que evaluamos los conceptos que se aprenden durante el Prep Course. El examen tiene la finalidad de asegurarnos que realmente has adquirido los conocimientos, dado que tenerlos bien claros es la clave del éxito para que puedas avanzar sin problemas dentro de la carrera. El examen se realiza todos sábado por medio sábados, con previo registro e  [inscripción](https://admissions.soyhenry.com/  ). Podrás rendirlo hasta 3 veces. Tambien incluye una evaluación de Matematica, pero solamente para conocer tu nivel.
-
-</br >
-
 ## **🤨 ¿QUÉ PUEDO HACER SI TENGO DUDAS?**
 
 

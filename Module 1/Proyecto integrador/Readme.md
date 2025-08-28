@@ -1,74 +1,74 @@
-# Proyecto integrador
+# 📊 Proyecto Integrador  
+## Conociendo al Cliente 360°: Datos, Opiniones y Tendencia  
 
-## Conociendo al Cliente 360°: Datos, Opiniones y Tendencia
+Este proyecto forma parte de un proceso de selección técnica para el rol de **Científico de Datos Junior en InsightReach**.  
+El objetivo principal es demostrar la capacidad para **analizar, enriquecer e interpretar múltiples fuentes de datos**, generando insights y recomendaciones accionables para campañas de marketing digital personalizadas.  
 
-Formas parte de un proceso de selección técnica para el rol de Científico de Datos Junior en InsightReach.
+---
 
-InsightReach es una empresa de marketing digital especializada en campañas personalizadas para negocios locales. Con el crecimiento de su base de clientes y la expansión a nuevos mercados, la empresa busca optimizar su estrategia de segmentación para mejorar la efectividad de sus campañas.
+## 🎯 Objetivos
+- Explorar y comprender estructuras de datos reales provenientes de fuentes diversas.  
+- Aplicar técnicas de limpieza y transformación de datos para preparar datasets para análisis.  
+- Utilizar librerías de Python como **pandas, numpy, matplotlib y seaborn** para realizar análisis exploratorio de datos (EDA).  
+- Conectar con la **API de Yelp** para enriquecer un dataset con información contextual.  
+- Implementar técnicas de **web scraping** para extraer datos relevantes de páginas web.  
+- Interpretar los resultados para generar **recomendaciones accionables**.  
+- Documentar el proceso de forma clara, estructurada y reproducible.  
 
-Como postulante, tu desafío es demostrar tu capacidad para analizar, enriquecer e interpretar bases de datos complejas para generar recomendaciones accionables. Tu rol simula el trabajo de un profesional en un entorno real, donde deberás construir análisis sólidos, justificar decisiones y comunicar resultados de manera clara y estructurada.
-Para ello, se ha diseñado un reto técnico dirigido a candidatos para el rol de Científico de Datos Junior, cuyo objetivo es demostrar su capacidad para integrar múltiples fuentes de datos, analizarlas y generar insights accionables
+---
 
+## 🗂️ Estructura del proyecto
 
-## Objetivos del PI
-- Explorar y comprender estructuras de datos reales provenientes de fuentes diversas.
-- Aplicar técnicas de limpieza y transformación de datos para preparar datasets para análisis.
-- Utilizar librerías de Python como pandas, numpy, matplotlib y seaborn para realizar análisis exploratorio de datos (EDA).
-- Conectar con una API externa (Yelp) para enriquecer un dataset con información contextual e implementar técnicas de web scraping para extraer datos relevantes de páginas web.
-- Interpretar los resultados del análisis para generar recomendaciones accionables.
-Documentar el proceso de análisis de forma clara, estructurada y reproducible.
-
-### Avances / Notebooks
-- Avance_EDA.ipynb
-- Avance_API_Yelp.ipynb
-- Avance_Analisis_Final.ipynb
-### Documentación
-- README.pdf / .docx (Pasos, resultados)
-- Recomendaciones.pdf (Propuestas de segmentación)
-
- ### Entregable final: 
- El entregable debe ser una carpeta comprimida (.zip) con la siguiente estructura organizada: ProyectoM1_NombreEstudiante/
+El entregable final debe organizarse en una carpeta comprimida
 
 
- ## Detalles de avances
+---
 
- ### Avance 1
- Tareas:
- 1. Cargar y explorar una base de datos de clientes. 
-2. Filtrar la base de datos para un país específico. 
-3. Realizar limpieza de datos, identificar valores nulos, duplicados y errores. 
-4. Generar tablas básicas para entender la distribución de variables como género, duración de sesión, calificaciones, etc.
-5. Comenzar a documentar en el notebook Avance_1_EDA.ipynb
+## 🚀 Flujo de ejecución
 
-Conocimientos necesarios:
-- Lectura de archivos CSV con pandas
-- Limpieza de datos (valores nulos, duplicados, tipos de datos)
-- Python, numpy, pandas
+Para asegurar reproducibilidad y coherencia en los análisis, **ejecutar los avances en el siguiente orden**:  
 
-### Avance 2
-Tareas:
-1. Conectarse a la API de Yelp para obtener información de negocios locales de una ciudad según el país seleccionado. 2. Extraer datos como nombre del negocio, categoría, calificación, número de reseñas, etc.  
-3. Integrar esta información al análisis que se está realizando para una ciudad/país en específico. 
-4. Documentar los resultados en Avance_2_API_Yelp.ipynb
+1. **Avance_1_EDA.ipynb**  
+   - Carga y exploración inicial de la base de datos de clientes.  
+   - Limpieza de datos: manejo de nulos, duplicados y tipos de variables.  
+   - Tablas y visualizaciones básicas.  
 
-Conocimientos necesarios:
-- Uso de APIs REST
-- Manejo de autenticación con claves API
-- Manipulación de respuestas JSON
-- Integración de datos externos con pandas
-- Python, requests, pandas, Yelp fusion API
+2. **Avance_2_API_Yelp.ipynb**  
+   - Conexión con la API de Yelp (requiere clave de autenticación).  
+   - **Antes de ejecutar este notebook:**  
+     - Crear un archivo `.env` en la raíz del proyecto con las credenciales necesarias.  
+     - El archivo debe contener las variables de entorno para el `CLIENT_ID` y `API_KEY`.  
+     - Se incluye un archivo **`.env.example`** que muestra el formato correcto.  
+   - Extracción de datos de negocios (nombre, categoría, calificación, reseñas).  
+   - Integración con la información de clientes para contextualizar resultados.  
 
-### Avance 3
-Tareas:
-1. Analizar los datos integrados (clientes, Yelp, tendencias externas) para identificar patrones relevantes que puedan guiar decisiones de marketing. 
-2. Formular preguntas clave del negocio y responderlas con visualizaciones y análisis descriptivo. 
-3. Elaborar recomendaciones basadas en los hallazgos.
-4. Complementar el archivo Avance_1_EDA.ipynb
+3. **Avance_3_Analisis_Final.ipynb**  
+   - Análisis exploratorio integrado (clientes + Yelp + tendencias externas).  
+   - Visualizaciones y métricas para responder preguntas clave de negocio.  
+   - Generación de insights finales.  
 
-Conocimientos necesarios:
-- analisis exploratorio de datos
-- interpretacion de graficos y metricas
-- Matplotlib, seaborn, python, numpy, pandas
+---
 
+## 📑 Documentación y Entregables
 
+- **README.md / README.pdf**  
+  Este archivo, con instrucciones claras sobre el proyecto, objetivos y flujo de trabajo.  
+
+- **Recomendaciones.pdf**  
+  Documento que resume los hallazgos más relevantes y contiene propuestas concretas de segmentación, estrategias de marketing y optimización de campañas.  
+
+- **Notebooks (Avance_1, Avance_2, Avance_3)**  
+  Contienen el desarrollo técnico, análisis exploratorio, integración de datos y generación de visualizaciones.  
+
+- **.env.example**  
+  Ejemplo de archivo de configuración de entorno para almacenar las credenciales necesarias (no subir el archivo `.env` real con claves a repositorios públicos).  
+
+---
+
+## 🛠️ Requisitos técnicos
+
+- **Python 3.8+**  
+- Librerías necesarias:  
+  ```bash
+  pip install pandas numpy matplotlib seaborn requests python-dotenv
 
